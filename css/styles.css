@@ -1,0 +1,180 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  font-family: sans-serif;
+}
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17;
+  color: brown;
+  line-height: 1.6;
+
+}
+
+ #showcase{
+   background-image:url('../img/landing.jpg');
+   height: 600px;
+   display: flex;
+   flex-direction: column;
+   background-size: cover;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
+ }
+ #showcase h1{
+   color: rebeccapurple;
+   font-size: 50px;
+ }
+ #showcase p{
+   color: black;
+   font-size: 20px;
+ }
+ .navbar{
+   position: absolute;
+   top: 30;
+   left: 0;
+ }
+ }
+ ul{
+   position: fixed;
+   left: 0px;
+   top: 30px;
+ }
+ .open-slide{
+   position: fixed;
+   left: 0;
+ }
+ .navbar a{
+   float: left;
+   display: block;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   font-size: 17px;
+ }
+ .side-nav{
+   height: 100%;
+   width: 0;
+ }
+ .grid{
+   display: grid;
+ }
+ .grid div:nth-child(even){
+   background-color: green;
+ }
+ .column {
+  float: right;
+  width: 33px, 33px;
+  position:relative;
+  right: -174px;
+  padding: 0px;
+  margin: 0;}
+  .col{
+    position: relative;
+    top: 250px;
+    padding: 0px;
+  }
+  .co{
+    position: absolute;
+    top: 90px;
+    padding: 0px;
+    top: 15px;
+    margin: 0px;
+  }
+  .para{
+    color: black;
+    text-align:justify;
+    position: relative;
+    left: 150px;
+    float: left;
+  }
+  .h2{
+    color: black;
+    position:relative;
+    right: -150px;
+    align-items:baseline;
+
+  }
+  .h3{
+    color: black;
+    position:relative;
+    left: 150px;
+    font-style: italic;
+  }
+  .pa{
+    color: black;
+    position:relative;
+    text-align:right;
+    float: left;
+    top: 300px;
+    right: 630px;
+    font-size: 15px;
+
+
+  }
+  .h4{
+    color: black;
+    position: relative;
+    float: left;
+    top: 300px;
+    right: 450px;
+    font-size: 25px;
+    font-style: italic;
+  }
+ .h{
+   color: black;
+   position: relative;
+   float: left;
+   top: 260px;
+   right: 85px;
+   font-size: 30px;
+ }
+ .img{
+   position:relative;
+   float:right;
+   padding:0px;
+
+
+ }
+ #bg{
+   background-image: url('../img/foodsBg.jgp');
+   height: 100%;
+   position: relative;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+
+}
+}
+
+/* Clear floats after containers */
+#container::after {
+    content: "";
+    clear: both;
+    display: table;
+    color: black;
+}
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+#container {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    border-left-width: medium;
+    color: black;
+    left: 20px;
+
+
+}
+/* Increase the font-size of a span element */
+#container span {
+    font-size: 20px;
+    margin-right: 10px;
+    color: purple;
+}
