@@ -11,52 +11,35 @@ body{
   color: brown;
   line-height: 1.6;
 
+
 }
 
  #showcase{
    background-image:url('../img/landing.jpg');
    height: 600px;
-   display: flex;
+   width: 100%;
+   display: block;
    flex-direction: column;
    background-size: cover;
    background-position: center;
-   justify-content: center;
-   align-items: center;
+   text-align: center;
+   top: 100px;
  }
  #showcase h1{
    color: rebeccapurple;
    font-size: 50px;
+   text-align: center;
  }
  #showcase p{
    color: black;
    font-size: 20px;
- }
- .navbar{
-   position: absolute;
-   top: 30;
-   left: 0;
+   text-align: center;
  }
  }
  ul{
    position: fixed;
    left: 0px;
    top: 30px;
- }
- .open-slide{
-   position: fixed;
-   left: 0;
- }
- .navbar a{
-   float: left;
-   display: block;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   font-size: 17px;
- }
- .side-nav{
-   height: 100%;
-   width: 0;
  }
  .grid{
    display: grid;
@@ -109,42 +92,49 @@ body{
     text-align:right;
     float: left;
     top: 300px;
-    right: 630px;
+    right: 200px;
     font-size: 15px;
+    text-align: right;
 
 
   }
   .h4{
     color: black;
     position: relative;
-    float: left;
+    float: right;
     top: 300px;
-    right: 450px;
+    right: 120px;
     font-size: 25px;
     font-style: italic;
   }
  .h{
    color: black;
    position: relative;
-   float: left;
+   float: right;
    top: 260px;
-   right: 85px;
+   right: 200px;
    font-size: 30px;
  }
  .img{
    position:relative;
    float:right;
    padding:0px;
+   left: 600px;
+   top: -100px;
 
 
  }
  #bg{
    background-image: url('../img/foodsBg.jgp');
    height: 100%;
-   position: relative;
+   position:relative;
    width: 100%;
-   padding: 0;
-   margin: 0;
+   padding: 0px;
+   background-size: cover;
+   margin: 0px;
+   background-position: center;
+
+
 
 }
 }
@@ -177,4 +167,46 @@ body{
     font-size: 20px;
     margin-right: 10px;
     color: purple;
+}
+.col-md-6{
+  position: relative;
+  color: black;
+  top: 100px;
+}
+#Happy{
+  background-color: lavender;
+  color: black;
+  padding: 42px;
+
+}
+#Hour{
+  background-color: coral;
+  color: white;
+  padding: 42px;
+}
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.col-md-3{
+  padding: 0;
+  position: relative;
+  margin: 0;
+  top: 0px;
+}
+.jumbotron{
+  padding: 0;
 }
