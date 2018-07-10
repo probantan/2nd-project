@@ -237,4 +237,5 @@ img{
 #bannerImage{
   width: 100%;
   height: 600px;
+  top: -10px;
 }
